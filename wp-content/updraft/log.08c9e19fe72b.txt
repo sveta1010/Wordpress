@@ -1,0 +1,564 @@
+0000.000 (0) Opened log file at time: Thu, 25 Aug 2022 18:15:49 +0000 on https://stimotijevic.wppsbootcamp.com/digitel
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.17 WP: 6.0.1 PHP: 8.0.22 (fpm-fcgi, Linux 190.62.205.92.host.secureserver.net 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64) MySQL: 5.7.39 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 76.4M | 80M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.035 (0) Free space on disk containing Updraft's temporary directory: 344063.3 MB
+0000.038 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: manual)
+0000.039 (0) Semaphore (fd, wp_options) being initialised
+0000.042 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.045 (0) Set semaphore last lock (fd) time to 2022-08-25 18:15:49
+0000.046 (0) Semaphore lock (fd) complete
+0000.050 (0) Backup run: resumption=0, nonce=08c9e19fe72b, file_nonce=08c9e19fe72b begun at=1661451349 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1661451649) in case this run gets aborted
+0000.061 (0) Checking if we have a zip executable available
+0000.062 (0) Testing: /usr/bin/zip
+0000.070 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.072 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.074 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.083 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.089 (0) Working binary zip found: /usr/bin/zip
+0000.090 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.091 (0) Creation of backups of directories: beginning
+0000.094 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.012 (0) Total entities for the zip file: 3076 directories, 11217 files (0 skipped as non-modified), 155 MB
+0001.036 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.041 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.043 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.045 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.046 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.048 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.050 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.051 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.053 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.055 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.056 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 11217 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.715 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 3.00 MB
+0001.722 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1100 files added (on-disk size: 3040.6 KB)
+0001.724 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1200 files added (on-disk size: 3040.6 KB)
+0001.726 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1300 files added (on-disk size: 3040.6 KB)
+0001.843 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1400 files added (on-disk size: 3040.6 KB)
+0002.191 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1500 files added (on-disk size: 3040.6 KB)
+0002.303 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1600 files added (on-disk size: 3040.6 KB)
+0002.408 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1700 files added (on-disk size: 3040.6 KB)
+0002.456 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1800 files added (on-disk size: 3040.6 KB)
+0002.458 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 1900 files added (on-disk size: 3040.6 KB)
+0002.460 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2000 files added (on-disk size: 3040.6 KB)
+0002.462 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.1 MB, 11217 files batched, 1001 (2002) added so far); re-opening (prior size: 3040.6 KB)
+0003.066 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 4.90 MB
+0003.079 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2100 files added (on-disk size: 4972 KB)
+0003.085 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2200 files added (on-disk size: 4972 KB)
+0003.087 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2300 files added (on-disk size: 4972 KB)
+0003.089 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2400 files added (on-disk size: 4972 KB)
+0003.091 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2500 files added (on-disk size: 4972 KB)
+0003.093 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2600 files added (on-disk size: 4972 KB)
+0003.095 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2700 files added (on-disk size: 4972 KB)
+0003.098 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2800 files added (on-disk size: 4972 KB)
+0003.099 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 2900 files added (on-disk size: 4972 KB)
+0003.101 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3000 files added (on-disk size: 4972 KB)
+0003.102 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 11217 files batched, 1001 (3003) added so far); re-opening (prior size: 4972 KB)
+0003.817 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 6.90 MB
+0003.837 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3100 files added (on-disk size: 7033.5 KB)
+0003.839 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3200 files added (on-disk size: 7033.5 KB)
+0003.842 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3300 files added (on-disk size: 7033.5 KB)
+0003.844 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3400 files added (on-disk size: 7033.5 KB)
+0003.845 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3500 files added (on-disk size: 7033.5 KB)
+0003.847 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3600 files added (on-disk size: 7033.5 KB)
+0003.849 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3700 files added (on-disk size: 7033.5 KB)
+0003.851 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3800 files added (on-disk size: 7033.5 KB)
+0003.852 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 11217 files batched, 845 (3848) added so far); re-opening (prior size: 7033.5 KB)
+0004.789 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 13.80 MB
+0004.795 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13386.4 KB/s)
+0004.797 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9125270843506, normalised_time=1.912385412122, max_time=4.7960431575775, data points known=1, old_max_bytes=26214400, new_max_bytes=82246182)
+0004.799 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 3900 files added (on-disk size: 14116.4 KB)
+0004.801 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4000 files added (on-disk size: 14116.4 KB)
+0004.803 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4100 files added (on-disk size: 14116.4 KB)
+0004.805 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4200 files added (on-disk size: 14116.4 KB)
+0004.807 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4300 files added (on-disk size: 14116.4 KB)
+0004.809 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4400 files added (on-disk size: 14116.4 KB)
+0004.810 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4500 files added (on-disk size: 14116.4 KB)
+0004.813 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4600 files added (on-disk size: 14116.4 KB)
+0004.815 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4700 files added (on-disk size: 14116.4 KB)
+0004.817 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4800 files added (on-disk size: 14116.4 KB)
+0004.818 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.7 MB, 11217 files batched, 1001 (4849) added so far); re-opening (prior size: 14116.4 KB)
+0005.653 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 21.60 MB
+0005.659 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 4900 files added (on-disk size: 22126.5 KB)
+0005.661 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5000 files added (on-disk size: 22126.5 KB)
+0005.663 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5100 files added (on-disk size: 22126.5 KB)
+0005.664 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5200 files added (on-disk size: 22126.5 KB)
+0005.666 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5300 files added (on-disk size: 22126.5 KB)
+0005.668 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5400 files added (on-disk size: 22126.5 KB)
+0005.670 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5500 files added (on-disk size: 22126.5 KB)
+0005.671 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5600 files added (on-disk size: 22126.5 KB)
+0005.673 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5700 files added (on-disk size: 22126.5 KB)
+0005.675 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5800 files added (on-disk size: 22126.5 KB)
+0005.676 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 11217 files batched, 1001 (5850) added so far); re-opening (prior size: 22126.5 KB)
+0006.121 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 5900 files added (on-disk size: 26117.2 KB)
+0006.124 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6000 files added (on-disk size: 26117.2 KB)
+0006.125 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6100 files added (on-disk size: 26117.2 KB)
+0006.127 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6200 files added (on-disk size: 26117.2 KB)
+0006.129 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6300 files added (on-disk size: 26117.2 KB)
+0006.132 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6400 files added (on-disk size: 26117.2 KB)
+0006.135 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6500 files added (on-disk size: 26117.2 KB)
+0006.137 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6600 files added (on-disk size: 26117.2 KB)
+0006.138 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6700 files added (on-disk size: 26117.2 KB)
+0006.140 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6800 files added (on-disk size: 26117.2 KB)
+0006.142 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2 MB, 11217 files batched, 1001 (6851) added so far); re-opening (prior size: 26117.2 KB)
+0006.552 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 6900 files added (on-disk size: 27263.2 KB)
+0006.582 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7000 files added (on-disk size: 27263.2 KB)
+0006.585 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7100 files added (on-disk size: 27263.2 KB)
+0006.587 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7200 files added (on-disk size: 27263.2 KB)
+0006.588 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7300 files added (on-disk size: 27263.2 KB)
+0006.590 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7400 files added (on-disk size: 27263.2 KB)
+0006.592 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7500 files added (on-disk size: 27263.2 KB)
+0006.594 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7600 files added (on-disk size: 27263.2 KB)
+0006.596 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7700 files added (on-disk size: 27263.2 KB)
+0006.597 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7800 files added (on-disk size: 27263.2 KB)
+0006.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.8 MB, 11217 files batched, 1001 (7852) added so far); re-opening (prior size: 27263.2 KB)
+0007.141 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 7900 files added (on-disk size: 29600.3 KB)
+0007.145 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8000 files added (on-disk size: 29600.3 KB)
+0007.149 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8100 files added (on-disk size: 29600.3 KB)
+0007.151 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8200 files added (on-disk size: 29600.3 KB)
+0007.153 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8300 files added (on-disk size: 29600.3 KB)
+0007.155 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8400 files added (on-disk size: 29600.3 KB)
+0007.156 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8500 files added (on-disk size: 29600.3 KB)
+0007.158 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8600 files added (on-disk size: 29600.3 KB)
+0007.160 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8700 files added (on-disk size: 29600.3 KB)
+0007.161 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8800 files added (on-disk size: 29600.3 KB)
+0007.163 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 11217 files batched, 1001 (8853) added so far); re-opening (prior size: 29600.3 KB)
+0007.601 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 8900 files added (on-disk size: 33095.5 KB)
+0007.633 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9000 files added (on-disk size: 33095.5 KB)
+0007.644 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9100 files added (on-disk size: 33095.5 KB)
+0007.651 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9200 files added (on-disk size: 33095.5 KB)
+0007.692 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9300 files added (on-disk size: 33095.5 KB)
+0007.702 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9400 files added (on-disk size: 33095.5 KB)
+0007.716 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9500 files added (on-disk size: 33095.5 KB)
+0007.726 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9600 files added (on-disk size: 33095.5 KB)
+0007.730 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9700 files added (on-disk size: 33095.5 KB)
+0007.733 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9800 files added (on-disk size: 33095.5 KB)
+0007.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.9 MB, 11217 files batched, 1001 (9854) added so far); re-opening (prior size: 33095.5 KB)
+0008.321 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: size is now: 39.20 MB
+0008.329 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 9900 files added (on-disk size: 40129.4 KB)
+0008.332 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10000 files added (on-disk size: 40129.4 KB)
+0008.335 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10100 files added (on-disk size: 40129.4 KB)
+0008.338 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10200 files added (on-disk size: 40129.4 KB)
+0008.342 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10300 files added (on-disk size: 40129.4 KB)
+0008.346 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10400 files added (on-disk size: 40129.4 KB)
+0008.351 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10500 files added (on-disk size: 40129.4 KB)
+0008.355 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10600 files added (on-disk size: 40129.4 KB)
+0008.359 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10700 files added (on-disk size: 40129.4 KB)
+0008.364 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10800 files added (on-disk size: 40129.4 KB)
+0008.368 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.5 MB, 11217 files batched, 1001 (10855) added so far); re-opening (prior size: 40129.4 KB)
+0009.227 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 10900 files added (on-disk size: 45799.7 KB)
+0009.229 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 11000 files added (on-disk size: 45799.7 KB)
+0009.231 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 11100 files added (on-disk size: 45799.7 KB)
+0009.233 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.tmp: 11200 files added (on-disk size: 45799.7 KB)
+0009.614 (0) Creating zip file manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.list-temp.tmp)
+0009.629 (0) Successfully created zip file manifest (size: 1024983)
+0010.006 (0) Created plugins zip (0) - 46894.2 KB in 9.9 s (4749.4 KB/s) (sha1: 959a0fe40d48d3ed5c69c0560834faca208b5a81, sha256: ade6414d50438bad1f0bfaa4d31c81ac0f0d024adcd5afd6f769a9a5d623c9f9)
+0010.017 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.017 (0) No remote despatch: user chose no remote backup service
+0010.018 (0) Recording as successfully uploaded: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip
+0010.020 (0) Deleting zip manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip.list.tmp)
+0010.022 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.023 (0) Number of backup sets in history: 0; groups (db): 1
+0010.024 (0) Number of backup sets in history: 0; groups (files): 1
+0010.025 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0010.031 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.126 (0) Total entities for the zip file: 368 directories, 1064 files (0 skipped as non-modified), 35.5 MB
+0010.129 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.131 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.133 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.134 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.136 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.138 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0010.139 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0010.141 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0010.143 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0010.144 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0010.145 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (34.3 MB, 1064 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0016.218 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.tmp: size is now: 15.40 MB
+0016.368 (0) Creating zip file manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.list-temp.tmp)
+0016.371 (0) Successfully created zip file manifest (size: 86463)
+0016.505 (0) Created themes zip (0) - 16249.2 KB in 6.4 s (2525 KB/s) (sha1: 662c7289e918e906ba86628a36c795c8a1a79848, sha256: 0762cb90be7204f4f3ec69248556c9584f1522534714c5957139d95c14006d81)
+0016.512 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.513 (0) No remote despatch: user chose no remote backup service
+0016.514 (0) Recording as successfully uploaded: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip
+0016.517 (0) Deleting zip manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip.list.tmp)
+0016.519 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0016.520 (0) Number of backup sets in history: 0; groups (db): 1
+0016.522 (0) Number of backup sets in history: 0; groups (files): 1
+0016.523 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0016.529 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0016.530 (0) Looking for candidates to backup in: /home/stimotijevic/public_html/digitel/wp-content/uploads
+0016.531 (0) finding files: 2022: adding to list (1)
+0016.532 (0) finding files: essential-addons-elementor: adding to list (2)
+0016.533 (0) finding files: elementor: adding to list (3)
+0016.534 (0) finding files: wpcf7_uploads: adding to list (4)
+0016.535 (0) finding files: spai: adding to list (5)
+0016.536 (0) finding files: wpo: adding to list (6)
+0016.537 (0) finding files: .htaccess: adding to list (7)
+0016.538 (0) finding files: wpo-plugins-tables-list.json: adding to list (8)
+0016.539 (0) finding files: ao_ccss: adding to list (9)
+0016.540 (0) finding files: woocommerce_uploads: adding to list (10)
+0016.541 (0) finding files: wc-logs: adding to list (11)
+0016.542 (0) finding files: woocommerce-placeholder.png: adding to list (12)
+0016.543 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (13)
+0016.546 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (14)
+0016.547 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (15)
+0016.549 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (16)
+0016.549 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (17)
+0016.551 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (18)
+0016.552 (0) finding files: pum: adding to list (19)
+0016.552 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0016.602 (0) Total entities for the zip file: 28 directories, 227 files (0 skipped as non-modified), 13.6 MB
+0016.606 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0016.609 (0) Zip: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0016.764 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip.tmp: size is now: 11.90 MB
+0016.779 (0) Creating zip file manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip.list-temp.tmp)
+0016.879 (0) Successfully created zip file manifest (size: 12592)
+0016.994 (0) Created uploads zip (0) - 12197.7 KB in 0.4 s (30290.4 KB/s) (sha1: 5b81729043e7d4ff65ec0c32e9cb5d43698125a1, sha256: c98f11a967fbac78203e76e907b6235de4208e276484f6a41502d0a5e9e337c3)
+0016.998 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.000 (0) No remote despatch: user chose no remote backup service
+0017.001 (0) Recording as successfully uploaded: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip
+0017.003 (0) Deleting zip manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip.list.tmp)
+0017.006 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.021 (0) Number of backup sets in history: 0; groups (db): 1
+0017.023 (0) Number of backup sets in history: 0; groups (files): 1
+0017.024 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0017.035 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.036 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.039 (0) Looking for candidates to backup in: /home/stimotijevic/public_html/digitel/wp-content
+0017.041 (0) finding files: themes: skipping: this is the themes directory
+0017.042 (0) finding files: index.php: adding to list (1)
+0017.051 (0) finding files: plugins: skipping: this is the plugins directory
+0017.052 (0) finding files: uploads: skipping: this is the uploads directory
+0017.053 (0) finding files: upgrade: skipping: excluded by options
+0017.054 (0) finding files: cache: skipping: excluded by options
+0017.055 (0) finding files: w3tc-config: adding to list (2)
+0017.056 (0) finding files: ewww: adding to list (3)
+0017.057 (0) finding files: logs: adding to list (4)
+0017.058 (0) finding files: updraft: skipping: this is the updraft directory
+0017.100 (0) Total entities for the zip file: 4 directories, 6 files (0 skipped as non-modified), 0.1 MB
+0017.116 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-others.zip.tmp: size is now: 0.00 MB
+0017.119 (0) Creating zip file manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-others.zip.list-temp.tmp)
+0017.120 (0) Successfully created zip file manifest (size: 243)
+0017.123 (0) Created others zip (0) - 10.6 KB in 0 s (412.4 KB/s) (sha1: e3b9f16df244be3337ac38ec40120f40d2c4047a, sha256: bba59f615d344fa7aa949ae26ebc46127de4ddec842458393bc7d4bebdcb47c1)
+0017.126 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.127 (0) No remote despatch: user chose no remote backup service
+0017.128 (0) Recording as successfully uploaded: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-others.zip
+0017.129 (0) Deleting zip manifest (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-others.zip.list.tmp)
+0017.131 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.132 (0) Number of backup sets in history: 0; groups (db): 1
+0017.133 (0) Number of backup sets in history: 0; groups (files): 1
+0017.134 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0017.142 (0) Saving backup status to database (elements: 8)
+0017.144 (0) Beginning creation of database dump (WordPress DB)
+0017.144 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0017.146 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0017.170 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1562 bytes total)
+0017.171 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0017.181 (0) Table wp_options: Total expected rows (via COUNT): 564
+0017.263 (0) Table wp_options: Rows added in this batch (next record: 5520): 560 (uncompressed bytes in this segment=2129684) in 0.09 seconds
+0017.268 (0) Table wp_options: finishing file(s) (2, 423.4 KB)
+0017.273 (0) Table wp_users: Total expected rows (via COUNT): 2
+0017.274 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.276 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1597) in 0.00 seconds
+0017.280 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0017.285 (0) Table wp_usermeta: Total expected rows (via COUNT): 45
+0017.286 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.288 (0) Table wp_usermeta: Rows added in this batch (next record: 48): 45 (uncompressed bytes in this segment=3862) in 0.01 seconds
+0017.293 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0017.299 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 173
+0017.300 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.306 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 854): 173 (uncompressed bytes in this segment=62336) in 0.01 seconds
+0017.311 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 4.6 KB)
+0017.314 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0017.317 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.00 seconds
+0017.320 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0017.323 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 4
+0017.324 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.326 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=785) in 0.00 seconds
+0017.330 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0017.333 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 517
+0017.339 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 517): 517 (uncompressed bytes in this segment=45439) in 0.01 seconds
+0017.343 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 4.6 KB)
+0017.347 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0017.348 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0017.352 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0017.357 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0017.359 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1752) in 0.00 seconds
+0017.362 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0017.366 (0) Table wp_links: Total expected rows (via COUNT): 0
+0017.367 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0017.370 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0017.377 (0) Table wp_postmeta: Total expected rows (approximate): 2017
+0017.419 (0) Table wp_postmeta: Rows added in this batch (next record: 7003): 2081 (uncompressed bytes in this segment=2170622) in 0.05 seconds
+0017.431 (0) Table wp_postmeta: finishing file(s) (2, 69.6 KB)
+0017.438 (0) Table wp_posts: Total expected rows (via COUNT): 260
+0017.439 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.467 (0) Table wp_posts: Rows added in this batch (next record: 902): 260 (uncompressed bytes in this segment=1693695) in 0.03 seconds
+0017.475 (0) Table wp_posts: finishing file(s) (2, 43.3 KB)
+0017.478 (0) Table wp_term_relationships: Total expected rows (approximate): 33
+0017.481 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 33 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0017.483 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0017.487 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 26
+0017.488 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.491 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=1870) in 0.01 seconds
+0017.495 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0017.500 (0) Table wp_termmeta: Total expected rows (via COUNT): 28
+0017.501 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.502 (0) Table wp_termmeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=1605) in 0.00 seconds
+0017.507 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0017.511 (0) Table wp_terms: Total expected rows (via COUNT): 26
+0017.512 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.513 (0) Table wp_terms: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=1758) in 0.00 seconds
+0017.517 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0017.520 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 11
+0017.523 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=700) in 0.00 seconds
+0017.525 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0017.529 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 24
+0017.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.533 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 731): 24 (uncompressed bytes in this segment=4013) in 0.00 seconds
+0017.537 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.9 KB)
+0017.539 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0017.542 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0017.545 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0017.548 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0017.550 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.552 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.00 seconds
+0017.557 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0017.562 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0017.564 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.01 seconds
+0017.568 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0017.573 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0017.574 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0017.578 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0017.582 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0017.584 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.00 seconds
+0017.587 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0017.590 (0) Table wp_ewwwio_images: Total expected rows (via COUNT): 19
+0017.591 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.594 (0) Table wp_ewwwio_images: Rows added in this batch (next record: 82): 19 (uncompressed bytes in this segment=4677) in 0.00 seconds
+0017.598 (0) Table wp_ewwwio_images: finishing file(s) (2, 1.3 KB)
+0017.602 (0) Table wp_ewwwio_queue: Total expected rows (via COUNT): 0
+0017.605 (0) Table wp_ewwwio_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.00 seconds
+0017.611 (0) Table wp_ewwwio_queue: finishing file(s) (2, 0.4 KB)
+0017.619 (0) Table wp_tm_taskmeta: Total expected rows (via COUNT): 0
+0017.622 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0017.629 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0017.778 (0) Table wp_tm_tasks: Total expected rows (via COUNT): 0
+0017.782 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.02 seconds
+0017.787 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0017.795 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 57
+0017.797 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.801 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 2150): 57 (uncompressed bytes in this segment=10197) in 0.01 seconds
+0017.805 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.2 KB)
+0017.809 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 49
+0017.810 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.814 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 49): 49 (uncompressed bytes in this segment=23328) in 0.01 seconds
+0017.818 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6 KB)
+0017.821 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0017.824 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0017.827 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0017.831 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0017.832 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=926) in 0.00 seconds
+0017.836 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0017.840 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0017.841 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0017.845 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0017.850 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0017.851 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0017.854 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0017.858 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0017.859 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.00 seconds
+0017.863 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0017.865 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0017.867 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0017.870 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0017.872 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0017.873 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.00 seconds
+0017.876 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0017.880 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0017.881 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.883 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=950) in 0.00 seconds
+0017.886 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0017.890 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0017.891 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0017.895 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0017.898 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0017.899 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0017.902 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0017.907 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0017.908 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.00 seconds
+0017.913 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0017.916 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0017.918 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.00 seconds
+0017.922 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0017.926 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0017.927 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0017.931 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0017.935 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0017.937 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0017.941 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0017.944 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0017.946 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0017.949 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0017.952 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0017.954 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0017.958 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0017.962 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 2
+0017.963 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.965 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 18): 2 (uncompressed bytes in this segment=4677) in 0.01 seconds
+0017.969 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.4 KB)
+0017.973 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0017.974 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.975 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=977) in 0.00 seconds
+0017.979 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0017.982 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0017.983 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.984 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=882) in 0.00 seconds
+0017.987 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0017.990 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0017.991 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0017.992 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=720) in 0.00 seconds
+0017.996 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0017.999 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0018.001 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0018.005 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0018.008 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0018.009 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0018.013 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0018.014 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/stimotijevic/public_html/digitel/wp-content/updraft/backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db.gz (line 1912, wp-content/plugins/updraftplus/backup.php)
+0018.015 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_options.table.tmpr5521.gz (1/51/fopen): adding to final database dump
+0018.018 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_options.table.gz (2/51/fopen): adding to final database dump
+0018.019 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_users.table.tmpr3.gz (3/51/fopen): adding to final database dump
+0018.020 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_users.table.gz (4/51/fopen): adding to final database dump
+0018.021 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_usermeta.table.tmpr49.gz (5/51/fopen): adding to final database dump
+0018.022 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_usermeta.table.gz (6/51/fopen): adding to final database dump
+0018.023 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_actions.table.tmpr855.gz (7/51/fopen): adding to final database dump
+0018.024 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_actions.table.gz (8/51/fopen): adding to final database dump
+0018.025 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/51/fopen): adding to final database dump
+0018.026 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_claims.table.gz (10/51/fopen): adding to final database dump
+0018.027 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_groups.table.tmpr5.gz (11/51/fopen): adding to final database dump
+0018.028 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_groups.table.gz (12/51/fopen): adding to final database dump
+0018.029 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_logs.table.tmpr518.gz (13/51/fopen): adding to final database dump
+0018.029 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_actionscheduler_logs.table.gz (14/51/fopen): adding to final database dump
+0018.030 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_commentmeta.table.tmpr0.gz (15/51/fopen): adding to final database dump
+0018.031 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_commentmeta.table.gz (16/51/fopen): adding to final database dump
+0018.032 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_comments.table.tmpr0.gz (17/51/fopen): adding to final database dump
+0018.034 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_comments.table.gz (18/51/fopen): adding to final database dump
+0018.034 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_links.table.tmpr0.gz (19/51/fopen): adding to final database dump
+0018.035 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_links.table.gz (20/51/fopen): adding to final database dump
+0018.036 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_postmeta.table.tmpr7004.gz (21/51/fopen): adding to final database dump
+0018.038 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_postmeta.table.gz (22/51/fopen): adding to final database dump
+0018.038 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_posts.table.tmpr903.gz (23/51/fopen): adding to final database dump
+0018.040 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_posts.table.gz (24/51/fopen): adding to final database dump
+0018.041 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_term_relationships.table.tmpr100001.gz (25/51/fopen): adding to final database dump
+0018.042 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_term_relationships.table.gz (26/51/fopen): adding to final database dump
+0018.043 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_term_taxonomy.table.tmpr27.gz (27/51/fopen): adding to final database dump
+0018.044 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_term_taxonomy.table.gz (28/51/fopen): adding to final database dump
+0018.045 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_termmeta.table.tmpr29.gz (29/51/fopen): adding to final database dump
+0018.046 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_termmeta.table.gz (30/51/fopen): adding to final database dump
+0018.046 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_terms.table.tmpr27.gz (31/51/fopen): adding to final database dump
+0018.047 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_terms.table.gz (32/51/fopen): adding to final database dump
+0018.048 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/51/fopen): adding to final database dump
+0018.049 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_category_lookup.table.gz (34/51/fopen): adding to final database dump
+0018.050 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_meta_lookup.table.tmpr732.gz (35/51/fopen): adding to final database dump
+0018.051 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_meta_lookup.table.gz (36/51/fopen): adding to final database dump
+0018.051 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/51/fopen): adding to final database dump
+0018.052 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_reserved_stock.table.gz (38/51/fopen): adding to final database dump
+0018.053 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/51/fopen): adding to final database dump
+0018.054 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_tax_rate_classes.table.gz (40/51/fopen): adding to final database dump
+0018.055 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/51/fopen): adding to final database dump
+0018.055 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_order_itemmeta.table.gz (42/51/fopen): adding to final database dump
+0018.056 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/51/fopen): adding to final database dump
+0018.057 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/51/fopen): adding to final database dump
+0018.058 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_e_events.table.tmpr0.gz (45/51/fopen): adding to final database dump
+0018.059 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_e_events.table.gz (46/51/fopen): adding to final database dump
+0018.060 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_ewwwio_images.table.tmpr83.gz (47/51/fopen): adding to final database dump
+0018.060 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_ewwwio_images.table.gz (48/51/fopen): adding to final database dump
+0018.061 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_ewwwio_queue.table.tmpr0.gz (49/51/fopen): adding to final database dump
+0018.062 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_ewwwio_queue.table.gz (50/51/fopen): adding to final database dump
+0018.063 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_tm_taskmeta.table.tmpr0.gz (51/51/fopen): adding to final database dump
+0018.064 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_tm_taskmeta.table.gz (52/51/fopen): adding to final database dump
+0018.064 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_tm_tasks.table.tmpr0.gz (53/51/fopen): adding to final database dump
+0018.065 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_tm_tasks.table.gz (54/51/fopen): adding to final database dump
+0018.066 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_admin_note_actions.table.tmpr2151.gz (55/51/fopen): adding to final database dump
+0018.067 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_admin_note_actions.table.gz (56/51/fopen): adding to final database dump
+0018.068 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_admin_notes.table.tmpr50.gz (57/51/fopen): adding to final database dump
+0018.069 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_admin_notes.table.gz (58/51/fopen): adding to final database dump
+0018.069 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_customer_lookup.table.tmpr0.gz (59/51/fopen): adding to final database dump
+0018.070 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_customer_lookup.table.gz (60/51/fopen): adding to final database dump
+0018.071 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_download_log.table.tmpr0.gz (61/51/fopen): adding to final database dump
+0018.072 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_download_log.table.gz (62/51/fopen): adding to final database dump
+0018.073 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (63/51/fopen): adding to final database dump
+0018.073 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_coupon_lookup.table.gz (64/51/fopen): adding to final database dump
+0018.074 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (65/51/fopen): adding to final database dump
+0018.075 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_product_lookup.table.gz (66/51/fopen): adding to final database dump
+0018.076 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_stats.table.tmpr0.gz (67/51/fopen): adding to final database dump
+0018.077 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_stats.table.gz (68/51/fopen): adding to final database dump
+0018.078 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (69/51/fopen): adding to final database dump
+0018.079 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_order_tax_lookup.table.gz (70/51/fopen): adding to final database dump
+0018.080 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (71/51/fopen): adding to final database dump
+0018.081 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_attributes_lookup.table.gz (72/51/fopen): adding to final database dump
+0018.082 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_download_directories.table.tmpr3.gz (73/51/fopen): adding to final database dump
+0018.083 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_product_download_directories.table.gz (74/51/fopen): adding to final database dump
+0018.084 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_rate_limits.table.tmpr0.gz (75/51/fopen): adding to final database dump
+0018.085 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_rate_limits.table.gz (76/51/fopen): adding to final database dump
+0018.086 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_webhooks.table.tmpr0.gz (77/51/fopen): adding to final database dump
+0018.087 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_wc_webhooks.table.gz (78/51/fopen): adding to final database dump
+0018.087 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (79/51/fopen): adding to final database dump
+0018.088 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_api_keys.table.gz (80/51/fopen): adding to final database dump
+0018.089 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (81/51/fopen): adding to final database dump
+0018.090 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_attribute_taxonomies.table.gz (82/51/fopen): adding to final database dump
+0018.091 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (83/51/fopen): adding to final database dump
+0018.092 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (84/51/fopen): adding to final database dump
+0018.092 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_log.table.tmpr0.gz (85/51/fopen): adding to final database dump
+0018.093 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_log.table.gz (86/51/fopen): adding to final database dump
+0018.094 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_order_items.table.tmpr0.gz (87/51/fopen): adding to final database dump
+0018.095 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_order_items.table.gz (88/51/fopen): adding to final database dump
+0018.096 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (89/51/fopen): adding to final database dump
+0018.096 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_payment_tokens.table.gz (90/51/fopen): adding to final database dump
+0018.097 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_sessions.table.tmpr19.gz (91/51/fopen): adding to final database dump
+0018.098 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_sessions.table.gz (92/51/fopen): adding to final database dump
+0018.099 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (93/51/fopen): adding to final database dump
+0018.099 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zone_locations.table.gz (94/51/fopen): adding to final database dump
+0018.100 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (95/51/fopen): adding to final database dump
+0018.101 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zone_methods.table.gz (96/51/fopen): adding to final database dump
+0018.102 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (97/51/fopen): adding to final database dump
+0018.103 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_shipping_zones.table.gz (98/51/fopen): adding to final database dump
+0018.104 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (99/51/fopen): adding to final database dump
+0018.105 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_tax_rate_locations.table.gz (100/51/fopen): adding to final database dump
+0018.106 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (101/51/fopen): adding to final database dump
+0018.107 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db-table-wp_woocommerce_tax_rates.table.gz (102/51/fopen): adding to final database dump
+0018.110 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db.gz: finished writing out complete database file (576.5 KB)
+0018.120 (0) Total database tables backed up: 51 (backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db.gz, size: 590465, sha1: e42dd9a934b3474e673c5d12f3f882f3fccccb2a, sha256: 1759edc6546ae98faef1b2627f511509b0053c124024c20573de02be5f7b972a)
+0018.125 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-plugins.zip: plugins: This file has already been successfully uploaded
+0018.126 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-themes.zip: themes: This file has already been successfully uploaded
+0018.126 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-uploads.zip: uploads: This file has already been successfully uploaded
+0018.127 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-others.zip: others: This file has already been successfully uploaded
+0018.128 (0) backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.129 (0) Saving backup history. Total backup size: 74.1 MB
+0018.130 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0018.133 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.134 (0) No remote despatch: user chose no remote backup service
+0018.135 (0) Recording as successfully uploaded: backup_2022-08-25-1815_stimotijevicwppsbootcampcom_di_08c9e19fe72b-db.gz
+0018.138 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.139 (0) Number of backup sets in history: 1; groups (db): 1
+0018.140 (0) Examining (for databases) backup set with group_id=0, nonce=08c9e19fe72b, datestamp=1661451349 (Aug 25 2022 18:15:49)
+0018.144 (0) This backup set is the backup set just made, so will not be deleted.
+0018.144 (0) Number of backup sets in history: 1; groups (files): 1
+0018.146 (0) Examining (for files) backup set with nonce=08c9e19fe72b, datestamp=1661451349 (Aug 25 2022 18:15:49)
+0018.146 (0) This backup set is the backup set just made, so will not be deleted.
+0018.147 (0) This backup set is the backup set just made, so will not be deleted.
+0018.147 (0) This backup set is the backup set just made, so will not be deleted.
+0018.147 (0) This backup set is the backup set just made, so will not be deleted.
+0018.147 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.148 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0018.150 (0) Resume backup (08c9e19fe72b, 0): finish run
+0018.152 (0) Decremented the semaphore (fd) by 1
+0018.154 (0) Semaphore (fd) unlocked
+0018.154 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.158 (0) No email will/can be sent - the user has not configured an email address.
+0018.158 (0) The backup apparently succeeded and is now complete

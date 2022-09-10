@@ -1,0 +1,259 @@
+
+11-08-2022 06:24:51 [stimotijevic.wppsbootcamp.com][info] Parent plugin start installation!
+11-08-2022 06:24:51 [stimotijevic.wppsbootcamp.com][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.5.6
+11-08-2022 06:24:51 [stimotijevic.wppsbootcamp.com][info] Parent plugin installation complete!
+-------------------------------
+11-08-2022 06:25:57 [stimotijevic.wppsbootcamp.com][info] Try to create backup directory. Backup dir: (/home/stimotijevic/public_html/digitel/wp-content/uploads/wio_backup)
+-------------------------------
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][info] Try to create backup directory. Backup dir: (/home/stimotijevic/public_html/digitel/wp-content/uploads/wio_backup/2022/08)
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/logo.png) to a remote server (server_1).
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][error] Error to optimize attachment (ID: #8). Message: &quot;Cannot copy from uploaded file&quot;
+	-&gt; Attachment optimized? No
+	-&gt; Should be resized? No
+	-&gt; Original size: 250x106
+	-&gt; Relative path: 2022/08/logo.png
+	-&gt; Server used: server_1
+	-&gt;  Additional sizes:
+		-&gt; Type: thumbnail, size: 150x106, MIME type: image/png
+		-&gt; Type: ast-logo-size, size: 185x78, MIME type: image/png
+
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][debug] New queue created #1, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;8&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;error&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:0,&quot;final_size&quot;:0,&quot;original_mime_type&quot;:&quot;&quot;,&quot;final_mime_type&quot;:&quot;&quot;,&quot;extra_data&quot;:&quot;{\&quot;error\&quot;:\&quot;optimization\&quot;,\&quot;error_msg\&quot;:\&quot;Cannot copy from uploaded file\&quot;,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199497}
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][error] Failed to process (url: https://stimotijevic.wppsbootcamp.com/digitel/wp-content/uploads/2022/08/logo.png, path: /home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/logo.png, quality: 90) as error was returned: Cannot copy from uploaded file
+11-08-2022 06:31:37 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 23
+-------------------------------
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Hero-image.jpg) to a remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Hero-image-150x150.jpg) to a remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Hero-image-300x94.jpg) to a remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][debug] New queue created #2, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;31&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:219701,&quot;final_size&quot;:111724,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:207358,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199498}
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 22
+-------------------------------
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:38 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-3.png) to a remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-3-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-3-238x300.png) to a remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][debug] New queue created #3, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;52&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:230697,&quot;final_size&quot;:98493,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:138600,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199499}
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 21
+-------------------------------
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2.png) to a remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:39 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2-238x300.png) to a remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][debug] New queue created #4, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;55&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:239109,&quot;final_size&quot;:94431,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:145722,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199500}
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 20
+-------------------------------
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1.png) to a remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1-238x300.png) to a remote server (server_1).
+11-08-2022 06:31:40 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][debug] New queue created #5, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;58&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:239503,&quot;final_size&quot;:98236,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:145091,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199501}
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 19
+-------------------------------
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Wet-Only-Sampler-image.png) to a remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Wet-Only-Sampler-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Wet-Only-Sampler-image-282x300.png) to a remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][debug] New queue created #6, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;61&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:272088,&quot;final_size&quot;:130285,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:178424,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199501}
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 18
+-------------------------------
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:41 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Low-Volume-sampler-image.png) to a remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Low-Volume-sampler-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Low-Volume-sampler-image-282x300.png) to a remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][debug] New queue created #7, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;66&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:321883,&quot;final_size&quot;:124845,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:212855,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199502}
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 17
+-------------------------------
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:42 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/High-Volume-sampler-image.png) to a remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/High-Volume-sampler-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/High-Volume-sampler-image-282x300.png) to a remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][debug] New queue created #8, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;70&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:364554,&quot;final_size&quot;:126955,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:243590,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199503}
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 16
+-------------------------------
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:43 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2-1.png) to a remote server (server_1).
+11-08-2022 06:31:44 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:44 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2-1-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:44 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:44 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-2-1-255x300.png) to a remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][debug] New queue created #9, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;99&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:341402,&quot;final_size&quot;:107197,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:194138,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199505}
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 15
+-------------------------------
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1-1.png) to a remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1-1-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:45 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/image-1-1-255x300.png) to a remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][debug] New queue created #10, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;102&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:301666,&quot;final_size&quot;:110944,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:164904,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199506}
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 14
+-------------------------------
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/NILU-Measuring-station-image.png) to a remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/NILU-Measuring-station-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:46 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/NILU-Measuring-station-image-300x227.png) to a remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][debug] New queue created #11, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;105&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:440543,&quot;final_size&quot;:130193,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:277532,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199507}
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 13
+-------------------------------
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Measuring-station-Greece-image.png) to a remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Measuring-station-Greece-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:47 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Measuring-station-Greece-image-300x227.png) to a remote server (server_1).
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][debug] New queue created #12, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;108&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:363338,&quot;final_size&quot;:129700,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:215912,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199508}
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 12
+-------------------------------
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Arctic-Century-campaign-image.png) to a remote server (server_1).
+11-08-2022 06:31:48 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Arctic-Century-campaign-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Arctic-Century-campaign-image-300x227.png) to a remote server (server_1).
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][debug] New queue created #13, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;109&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:397302,&quot;final_size&quot;:109348,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:242545,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199509}
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 11
+-------------------------------
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:49 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/workers-image.png) to a remote server (server_1).
+11-08-2022 06:31:50 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:50 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/workers-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:50 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:50 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/workers-image-300x190.png) to a remote server (server_1).
+11-08-2022 06:31:50 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][debug] New queue created #14, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;211&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:929011,&quot;final_size&quot;:256730,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:745085,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199511}
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 10
+-------------------------------
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/john-doe.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/john-doe-150x150.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/john-doe-300x300.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][debug] New queue created #15, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;247&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:49324,&quot;final_size&quot;:37981,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:33065,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199511}
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 9
+-------------------------------
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/speaker-1-v2.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/speaker-1-v2-150x150.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/speaker-1-v2-300x300.jpg) to a remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][debug] New queue created #16, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;249&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:60342,&quot;final_size&quot;:60342,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:45777,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199511}
+11-08-2022 06:31:51 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 8
+-------------------------------
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/team-1.jpg) to a remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/team-1-150x150.jpg) to a remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/team-1-300x300.jpg) to a remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][debug] New queue created #17, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;250&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:46159,&quot;final_size&quot;:46159,&quot;original_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;final_mime_type&quot;:&quot;image\/jpeg&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:33143,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199512}
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 7
+-------------------------------
+11-08-2022 06:31:52 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:53 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/background-image.png) to a remote server (server_1).
+11-08-2022 06:31:53 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:53 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/background-image-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/background-image-300x77.png) to a remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][debug] New queue created #18, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;332&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:548218,&quot;final_size&quot;:378654,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:455571,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199514}
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 6
+-------------------------------
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/John.png) to a remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/John-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:54 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/John-223x300.png) to a remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][debug] New queue created #19, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;358&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:277509,&quot;final_size&quot;:86669,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:138776,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199515}
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 5
+-------------------------------
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Jenny.png) to a remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Jenny-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:55 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Jenny-223x300.png) to a remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][debug] New queue created #20, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;360&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:253754,&quot;final_size&quot;:87992,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:126835,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199516}
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 4
+-------------------------------
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Regula.png) to a remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Regula-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:56 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Regula-223x300.png) to a remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][debug] New queue created #21, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;361&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:263653,&quot;final_size&quot;:85539,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:130912,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199517}
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 3
+-------------------------------
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Barbara.png) to a remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Barbara-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:57 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Barbara-223x300.png) to a remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][debug] New queue created #22, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;362&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:294295,&quot;final_size&quot;:89196,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:147636,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199518}
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 2
+-------------------------------
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Switzerland-background-box.png) to a remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Switzerland-background-box-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Switzerland-background-box-300x204.png) to a remote server (server_1).
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][debug] New queue created #23, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;369&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:165641,&quot;final_size&quot;:102472,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:1,\&quot;original_main_size\&quot;:154883,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199518}
+11-08-2022 06:31:58 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 1
+-------------------------------
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] Start bulk optimization process! Scope: media-library
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Austria-background-box.png) to a remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Austria-background-box-150x150.png) to a remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] Preparing to upload a file (/home/stimotijevic/public_html/digitel/wp-content/uploads/2022/08/Austria-background-box-300x204.png) to a remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] File successfully uploaded to remote server (server_1).
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][debug] New queue created #24, attributes values: {&quot;server_id&quot;:null,&quot;object_id&quot;:&quot;386&quot;,&quot;object_name&quot;:&quot;&quot;,&quot;item_type&quot;:&quot;attachment&quot;,&quot;item_hash&quot;:null,&quot;item_hash_alternative&quot;:null,&quot;result_status&quot;:&quot;success&quot;,&quot;processing_level&quot;:&quot;normal&quot;,&quot;is_backed_up&quot;:true,&quot;original_size&quot;:203963,&quot;final_size&quot;:131642,&quot;original_mime_type&quot;:&quot;image\/png&quot;,&quot;final_mime_type&quot;:&quot;image\/png&quot;,&quot;extra_data&quot;:&quot;{\&quot;thumbnails_count\&quot;:2,\&quot;original_main_size\&quot;:157389,\&quot;class\&quot;:\&quot;RIO_Attachment_Extra_Data\&quot;}&quot;,&quot;created_at&quot;:1660199519}
+11-08-2022 06:31:59 [stimotijevic.wppsbootcamp.com][info] End bulk optimization process! Scope: media-library. Remain: 0
+-------------------------------
+11-08-2022 08:55:29 [stimotijevic.wppsbootcamp.com][info] Parent plugin start deactivation!
+11-08-2022 08:55:29 [stimotijevic.wppsbootcamp.com][info] Parent plugin deactivation complete!
+-------------------------------
